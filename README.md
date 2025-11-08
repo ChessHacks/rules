@@ -6,15 +6,15 @@ The primary goal of ChessHacks is to create the best AI chess engine possible.
 
 An AI chess engine at ChessHacks is defined as a program that generates legal chess moves by leveraging a neural network as a critical component of the move generation process.
 
-#### General Hackathon Rules
+<!-- #### General Hackathon Rules
 
-- Your final project should be
+- Your final project should be -->
 
 #### Chess Engine Core Requirements
 
 ![](/assets/allowed-vs-not-allowed.png)
 
-1. **Neural Network Dependency**: Your engine must use a neural network as an essential step in move generation. The neural network should be a critical dependency - if you can remove the network and your engine still works, then you probably aren't using depending on on the network enough
+1. **Neural Network Dependency**: Your engine must use a neural network as an essential step in move generation. The neural network should be a critical dependency - if you can remove the network and your engine still works, then you probably aren't depending on the network enough
 
 2. **Legal Move Generation**: Your program must generate legal chess moves according to standard chess rules. If your model generates illegal moves, it will be removed from the deployment pool.
 
